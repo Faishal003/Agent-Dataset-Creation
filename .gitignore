@@ -1,0 +1,51 @@
+# =========================
+# Python ignores
+# =========================
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.coverage
+*.log
+
+# Virtual environments
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# =========================
+# Node.js ignores
+# =========================
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build / cache
+frontend/dist/
+frontend/build/
+
+# =========================
+# Databases & secrets
+# =========================
+backend/data_collection_agents.db
+*.sqlite3
+*.db
+
+# =========================
+# OS junk files
+# =========================
+.DS_Store
+Thumbs.db
